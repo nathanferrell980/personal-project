@@ -36,3 +36,8 @@
 .center {
   text-align: center
 }
+
+.margin {
+    margin-right: 300px;
+    margin-left: 300px;
+}
