@@ -21,8 +21,8 @@
 }
 
 .nav-link-wrapper a {
-    color: #8a8a8a;
-    text-decoration: none;
+    color: black;
+    text-decoration: black;
     transition: color 0.5s;
 }
 
@@ -40,4 +40,6 @@
 .margin {
     margin-right: 300px;
     margin-left: 300px;
+    margin-bottom: 30px;
+    font-size: large;
 }
