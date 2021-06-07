@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Form</title>
-  <link rel="stylesheet" href="contact.css"/>
+  <link rel="stylesheet" href="contact.css" />
 </head>
 
 
@@ -14,17 +15,51 @@
 
   <div class="contact">
     <div class="form">
-      <div class="contact-info"></div>
-      
+      <div class="contact-info">
+        <h3 class="title">Let's get in touch</h3>
+        <p class="text">
+          How's it going
+        </p>
+      </div>
+
       <div class="contact-form">
         <span class="circle one"></span>
         <span class="circle two"></span>
+
+        <form action="contact.html">
+          <h3 class="title">Contact me</h3>
+          <div class="input-contact">
+            <input type="text" name="name" class="input">
+            <label for="">Username</label>
+            <span>Username</span>
+          </div>
+          <div class="input-contact">
+            <input type="email" name="email" class="input">
+            <label for="">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input-contact">
+            <input type="tel" name="phone" class="input">
+            <label for="">Phone</label>
+            <span>Phone</span>
+          </div>
+          <div class="input-contact textarea">
+            <textarea name="message" class="input"></textarea>
+            <label for="">Message</label>
+            <span>Message</span>
+          </div>
+          <input type="submit" value="Send" class="btn">
+        </form>
       </div>
-      </div>
+    </div>
   </div>
 
-  <!-- left off at 4:50--><!--https://www.youtube.com/watch?v=rpujWVkmiPE-->
+  <script src="app.js"></script>
 
-  
+  <!-- left off at 4:50-->
+  <!--https://www.youtube.com/watch?v=rpujWVkmiPE-->
+
+
 </body>
+
 </html>
